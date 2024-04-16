@@ -2,9 +2,9 @@
 Exemple de dockerfile + github pour lancer un serveur web basé sur l'image httpd
 
 ## Instructions pour lancer l'application
-Vérifiez si docker est installé :
-docker --version
-Cloner le référentiel :
+Vérifiez si docker est installé :\
+docker --version \
+Cloner le référentiel : 
 ```git clone git@github.com:Azzzeuh/docker-sae203.git```
 Aller au référentiel :
 cd exempleDockerfile
