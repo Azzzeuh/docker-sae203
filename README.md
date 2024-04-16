@@ -20,7 +20,7 @@ Maintenant d'autres gens peuvent se connecter en se connectant grâce à votre i
 vous pouvez connaître votre ip grâce à la commande : (sur linux)\
 ```hostname -I```\
 ou sur windows :\
-```ip config```
+```ip config```\
 au lieu de localhost:8080 il devra donc écrire :\
 ```<ip de l'hôte>:8080```\
 
