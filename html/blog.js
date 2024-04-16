@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function saveArticleToGitHub(title, content) {
-        const accessToken = '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';
+        const accessToken = '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';
         const repoOwner = 'Azzzeuh';
         const repoName = 'docker-sae203';
         const filePath = `articles/${Date.now()}.json`; // Choisir un chemin de fichier approprié
