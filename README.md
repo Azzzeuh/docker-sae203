@@ -1,7 +1,7 @@
-#Exemple Dockerfile (créer une image)
+# Exemple Dockerfile (créer une image)
 Exemple de dockerfile + github pour lancer un serveur web basé sur l'image httpd
 
-##Instructions pour lancer l'application
+## Instructions pour lancer l'application
 Vérifiez si docker est installé :
 docker --version
 Cloner le référentiel :
