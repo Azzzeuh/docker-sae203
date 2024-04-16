@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+        <meta charset="UTF-8">
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+		<link rel="icon" href="Images/logo.png" type="image/png">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="./blog.js"></script>
+		<title>Spêche</title>
+	</head>
+
+	<body onload="init()">
+		<header>
+			<a href="index.html" class="nom"><h1>Speche.</h1></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Carte</a></li>
+					<li><a href="espece.html">Annuaire</a></li>
+					<li><a href="video.html">Video</a></li>
+					<li><a href="blog.html" class="selectionne">Blog</a></li>
+				</ul>
+			</nav>
+			<div class="right-buttons">
+				<a>Se connecter</a>
+				<a class="inscrire">S'inscrire</a>
+			</div>
+		</header>
+
+        <main>
+            <section id="new-article">
+                <h2>Créer un nouvel article</h2>
+                <input type="text" id="article-title" placeholder="Titre de l'article">
+                <textarea id="article-content" placeholder="Contenu de l'article"></textarea>
+                <button id="submit-article">Publier</button>
+            </section>
+            
+            <section id="articles">
+                <!-- Les articles seront ajoutés ici dynamiquement -->
+            </section>
+        </main>
+
+		<footer class="footer">
+			<div class="authors">
+				<div class="author">
+					<a href="https://github.com/Fciraci">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Ciraci Furkan</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+
+				<div class="author">
+					<a href="https://github.com/RafaelD135">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Debein Rafael</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+
+				<div class="author">
+					<a href="https://github.com/Tatanelprr">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Lepareur Ethan</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+
+				<div class="author">
+					<a href="https://github.com/Azzzeuh">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Langlois Lucas</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

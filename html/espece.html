@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="icon" href="Images/logo.png" type="image/png">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+
+		<title>Spêche</title>
+	</head>
+
+	<body onload="init()">
+		<header>
+			<a href="index.html" class="nom"><h1>Speche.</h1></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Carte</a></li>
+					<li><a href="espece.html" class="selectionne">Annuaire</a></li>
+					<li><a href="video.html">Videos</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
+			<div class="right-buttons">
+				<a>Se connecter</a>
+				<a class="inscrire">S'inscrire</a>
+			</div>
+		</header>
+
+		<h3 class="titre"> Voici une liste de poissons que vous pouvez pêcher en France </h3>
+
+		<!-- Ajout bar -->
+		<div class="fish-container">
+			<div class="fish-info">
+				<h3>Bar</h3>
+				<p>
+					Le bar, poisson côtier élégant, habite les eaux tempérées européennes, 
+					se nourrissant de petits poissons et de crustacés près des rochers et des estuaires. 
+					Sa pêche sportive est appréciée pour sa combativité, 
+					mais sa popularité croissante nécessite des mesures de conservation pour assurer sa durabilité.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/bar.jpg" width="560" height="315" alt="Bar">
+			
+		</div>
+			
+		<div class="fish-container-gauche">
+			<div class="fish-info">
+				<h3>Truite</h3>
+				<p>
+					La truite est un poisson d'eau douce très répandu, souvent apprécié pour sa chair savoureuse.
+					Elle peut être trouvée dans les rivières et les lacs, et est souvent recherchée par les pêcheurs
+					sportifs pour sa combativité.
+				</p>
+			</div>
+			
+			<img src="Images/poisson/truite.jpg" width="560" height="315" alt="Truite">
+			
+		</div>
+
+		<div class="fish-container">
+			<div class="fish-info">
+				<h3>Brochet</h3>
+				<p>
+					Le brochet est un poisson d'eau douce largement répandu en Europe et en Amérique du Nord.
+            		Il se distingue par sa silhouette effilée et sa grande taille, atteignant parfois plus d'un mètre.
+            		Prédateur redoutable, il chasse principalement d'autres poissons, mais aussi des grenouilles et des petits mammifères aquatiques.
+            		La pêche au brochet est prisée pour sa taille impressionnante et sa combativité, 
+					mais sa conservation est essentielle en raison de son rôle dans l'équilibre des écosystèmes.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/brochet.jpg" width="560" height="315" alt="Brochet">
+		</div>
+
+			
+		<div class="fish-container-gauche">
+			<div class="fish-info">
+				<h3>Carpe</h3>
+				<p>
+					La carpe est un poisson d'eau douce omnivore, originaire d'Asie mais largement répandue
+					dans les eaux européennes. Elle est souvent élevée en pisciculture et est appréciée
+					par les pêcheurs pour sa taille et son poids.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/carpe.jpg" width="560" height="315" alt="Carpe">
+			
+		</div>
+		
+		
+		<div class="fish-container">
+			<div class="fish-info">
+				<h3>Dorade</h3>
+				<p>
+					La dorade est un poisson marin commun en Méditerranée. Elle est appréciée pour sa chair
+					délicate et son goût savoureux. La dorade est souvent pêchée commercialement ainsi que
+					par les amateurs de pêche sportive.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/dorade.jpg" width="560" height="315" alt="Dorade">
+			
+		</div>
+		
+
+		<div class="fish-container-gauche">
+			<div class="fish-info">
+				<h3>Gardon</h3>
+				<p>
+					Le gardon est un poisson d'eau douce très commun en Europe. Il est souvent pêché
+					pour l'alimentation ainsi que pour le loisir. Le gardon est connu pour sa facilité
+					à mordre à l'hameçon et est apprécié par les pêcheurs débutants.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/gardon.jpg" width="560" height="315" alt="Gardon">
+			
+		</div>
+		
+
+		<div class="fish-container">
+			<div class="fish-info">
+				<h3>Maquereau</h3>
+				<p>
+					Le maquereau est un poisson marin migrateur, commun dans les eaux tempérées et froides.
+					Il est pêché à grande échelle pour l'alimentation humaine. Le maquereau est apprécié
+					pour sa chair riche en oméga-3.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/maquereau.jpg" width="560" height="315" alt="Maquereau">
+			
+		</div>
+		
+		<div class="fish-container-gauche">
+			<div class="fish-info">
+				<h3>Perche</h3>
+				<p>
+					La perche est un poisson d'eau douce répandu en Europe. Elle est souvent recherchée
+					pour sa chair délicate. La perche est également appréciée par les pêcheurs sportifs
+					pour son comportement actif et sa résistance à la ligne.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/perche.jpg" width="560" height="315" alt="Perche">
+			
+		</div>
+		
+		<div class="fish-container">
+			<div class="fish-info">
+				<h3>Sole</h3>
+				<p>
+					La sole est un poisson plat marin, caractérisé par son corps fin et plat.
+					Elle est prisée pour sa chair blanche et tendre. La sole est souvent pêchée
+					commercialement et est un mets de choix dans de nombreuses cuisines.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/sole.jpg" width="560" height="315" alt="Sole">
+			
+		</div>
+
+		<div class="fish-container-gauche">
+			<div class="fish-info">
+				<h3>Tacaud</h3>
+				<p>
+					Le tacaud est un poisson marin abondant dans les eaux côtières tempérées.
+					Il est souvent pêché pour l'alimentation et est apprécié pour sa chair
+					légèrement sucrée. Le tacaud est également utilisé comme appât pour la pêche.
+				</p>
+			</div>
+			
+				<img src="Images/poisson/tacaud.jpg" width="560" height="315" alt="Tacaud">
+			
+		</div>
+		
+		
+			
+
+		<footer class="footer">
+			<div class="authors">
+				<div class="author">
+					<a href="https://github.com/utilisateur1">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Ciraci Furkan</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+			
+				<div class="author">
+					<a href="https://github.com/RafaelD135">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Debein Rafael</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+				<div class="author">
+					<a href="https://github.com/Tatanelprr">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Lepareur Ethan</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+
+				<div class="author">
+					<a href="https://github.com/Azzzeuh">
+						<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+					</a>
+					<div class="info">
+						<p>Langlois Lucas</p>
+						<p>Groupe C1</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+
