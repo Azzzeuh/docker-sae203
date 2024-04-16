@@ -18,11 +18,11 @@ Vérifier que le conteneur associé est actif :\
 ```docker ps```\
 Maintenant d'autres gens peuvent se connecter en se connectant grâce à votre ip et le port,
 vous pouvez connaître votre ip grâce à la commande : (sur linux)\
-```hostname -I```
+```hostname -I```\
 ou sur windows :\
 ```ip config```
 au lieu de localhost:8080 il devra donc écrire :\
-```<ip de l'hôte>:8080```
+```<ip de l'hôte>:8080```\
 
 La sortie de docker ps doit être similaire à :\
 ```
