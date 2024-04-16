@@ -113,7 +113,7 @@ function saveMarkerToGitHub(markerData) {
     fetch(url, {
         method: 'PUT',
         headers: {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer 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',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
