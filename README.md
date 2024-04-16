@@ -29,7 +29,7 @@ CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS      
 b8f8f406b03c   httpd-juanlu   "httpd-foreground"   30 minutes ago   Up 30 minutes  0.0.0.0:8080->80/tcp, :::8080->80/tcp  quirky_tesla
 ```
 Finalement, arrêtez le conteneur avec la commande suivante (les dernières chiffres sont le code de hachage affiché par docker ps):\
-```docker stop b8f8f406b03c```
+```docker stop b8f8f406b03c``` \
 Encore, si on souhaite supprimer le conteneur, on peut taper :\
 ```docker rm b8f8f406b03c```\
 NOTE : Au lieu du code de hachage, on peut toujours taper le nom du conteneur. Dans le cas d'exemple ce nom est quirky_tesla\
