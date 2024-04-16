@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Compte-rendu équipe n°11</title>
+</head>
+<body>
+	<header>
+		<div>
+			<p class="title">Compte rendu</p>
+			<p class="team">Équipe n°11</p>
+			<ul>
+				<li>LANGLOIS Lucas</li>
+				<li>LEPAREUR Ethan</li>
+				<li>DEBEIN Rafael</li>
+				<li>CIRACI Furkan</li>
+			</ul>
+		</div>
+	</header>
+	
+
+	<section>
+		<h2>Réalisation du projet</h2>
+		<h3>Les TPs</h3>
+		<p>
+			Pour réaliser ce projet nous avons tout d'abord suivi différents TPs sur Github et Docker afin de découvrir ces différentes plateformes. Ces TPs nous ont fait 
+			découvrir l'hébergement de site sur Github ou encore le partage de données à l'aide de git push et git pull, ils nous ont fait aussi découvrir la création de 
+			de "fork". A propos de Dockerfile nous avons découvert le lancement et la création d'image Dockerfile.
+		</p>
+
+		<h3>Début du Projet</h3>
+		<p>
+			Avant de passer à l'écriture il était important de trouver une idée à laquelle il était possible de rajouter une communication réseau. Nous avons donc décidé de créer Speche. un 
+			site où il est possible de retrouver les différents lieux pour pêcher avec la possiibilité pour les autres utilisateurs de rajouter ses propres lieux de pêche, ces derniers seront 
+			accessibles justement à l'aide du réseau. De plus, nous avons ajouté une seconde fonctionnalité liée au réseau, le blog, ce dernier pourrait être utilisé par les différents 
+			utilisateurs afin de discuter de pêche et des différents lieux présents sur la carte.
+		</p>
+
+		<h3>Avancée du Projet</h3>
+		<p>
+			Nous avons commencer par l'écrituredu projet en HTML et en Javascript mais sans le réseau, une fois que tout était fonctionnel et agréable à utiliser nous sommes passé au réseau. 
+			Nous avons d'abord cherché une manière de stocker les modifications émises par les utilisateurs et nous nous sommes donc tourné vers l'API Github. Cette API fonctionne de la 
+			manière suivante.
+		</p>
+
+		<h3>Fonctionnement du site</h3>
+		<p>
+			<h4>Gestion des Requêtes Utilisateur :</h4>
+
+			Lorsqu'un utilisateur interagit avec le site, que ce soit pour consulter un article, poster un commentaire ou effectuer une action spécifique, l'interface utilisateur envoie des 
+			requêtes à l'API.
+
+			<h4>Traitement par l'API :</h4>
+
+			L'API reçoit ces requêtes et les traite en fonction de l'action demandée. Par exemple, si un utilisateur souhaite consulter un article, l'API récupère les données correspondantes 
+			depuis la base de données.
+
+			<h4>Communication avec la Base de Données :</h4>
+
+			Pour accéder aux informations nécessaires, l'API communique avec la base de données. Elle peut effectuer des opérations de lecture (récupération de données), d'écriture 
+			(ajout ou modification de données) ou de suppression (suppression d'informations).
+
+			<h4>Retour de l'API :</h4>
+
+			Une fois que l'API a traité la requête et obtenu les données appropriées depuis la base de données, elle renvoie une réponse à l'interface utilisateur. Cette réponse peut contenir 
+			les données demandées (par exemple, le contenu d'un article ou la liste des commentaires), ainsi que des informations sur le succès ou l'échec de l'opération.
+
+			<h4>Mise à Jour Dynamique :</h4>
+
+			Grâce à l'API, le site peut offrir une expérience utilisateur dynamique et réactive. Les interactions des utilisateurs déclenchent des requêtes vers l'API qui met à jour 
+			le contenu affiché en fonction des actions effectuées.
+
+			En résumé, l'API est un élément essentiel du fonctionnement du site, facilitant la communication entre l'interface utilisateur et la base de données pour fournir des fonctionnalités 
+			interactives et répondre efficacement aux besoins des utilisateurs.
+		</p>
+
+	</section>
+
+	<footer class="footer">
+		<div class="authors">
+			<div class="author">
+				<a href="https://github.com/utilisateur1">
+					<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+				</a>
+				<div class="info">
+					<p>Ciraci Furkan</p>
+					<p>Groupe C1</p>
+				</div>
+			</div>
+		
+			<div class="author">
+				<a href="https://github.com/RafaelD135">
+					<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+				</a>
+				<div class="info">
+					<p>Debein Rafael</p>
+					<p>Groupe C1</p>
+				</div>
+			</div>
+			<div class="author">
+				<a href="https://github.com/Tatanelprr">
+					<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+				</a>
+				<div class="info">
+					<p>Lepareur Ethan</p>
+					<p>Groupe C1</p>
+				</div>
+			</div>
+
+			<div class="author">
+				<a href="https://github.com/Azzzeuh">
+					<img src="Images/logo_github.png" style="filter: brightness(0) invert(1) grayscale(1);" alt="GitHub">
+				</a>
+				<div class="info">
+					<p>Langlois Lucas</p>
+					<p>Groupe C1</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

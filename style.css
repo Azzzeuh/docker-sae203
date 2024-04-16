@@ -1,0 +1,97 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+
+body {
+    margin: 0;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+header {
+    height: 12vh;
+    background-color: #318a55;
+    color: #fff;
+    padding: 15px;  
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title, .team {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+	padding: 20px;
+}
+
+.team {
+    font-size: 18px; /* Taille de police pour le texte "Équipe n°11" */
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Espacement horizontal entre les éléments de la liste */
+}
+
+header li {
+    font-size: 18px;
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+section{
+	margin: 20px;
+}
+
+.authors {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Ajoute un espacement horizontal entre les auteurs */
+    margin-left: 20px; /* Ajoute une marge à gauche pour l'espace initial */
+    margin-right: 20px; /* Ajoute une marge à droite pour l'espace final */
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author .info {
+    margin-left: 10px;
+}
+
+.author p {
+    margin: 5px 0;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.author a {
+    display: block;
+}
