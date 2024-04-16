@@ -12,8 +12,8 @@ Construisez l'image décrite dans dockerfile avec docker build :\
 ```docker build -t <choisir-un-nom-pour-l'image> .```\
 Lancer le serveur web :\
 ```docker run -d -p 8080:80 <nom-de-l'image-choisie>```\
-Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez localhost:8080 \
-
+Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez : \
+```localhost:8080``` \
 Vérifier que le conteneur associé est actif :\
 ```docker ps```\
 Maintenant d'autres gens peuvent se connecter en se connectant grâce à votre ip et le port,
@@ -23,7 +23,6 @@ ou sur windows :\
 ```ip config```\
 au lieu de localhost:8080 il devra donc écrire :\
 ```<ip de l'hôte>:8080``` \
-
 La sortie de docker ps doit être similaire à : \
 ```
 CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS         PORTS                                  NAMES
