@@ -22,9 +22,9 @@ vous pouvez connaître votre ip grâce à la commande : (sur linux)\
 ou sur windows :\
 ```ip config```\
 au lieu de localhost:8080 il devra donc écrire :\
-```<ip de l'hôte>:8080```\
+```<ip de l'hôte>:8080``` \
 
-La sortie de docker ps doit être similaire à :\
+La sortie de docker ps doit être similaire à : \
 ```
 CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS         PORTS                                  NAMES
 b8f8f406b03c   httpd-juanlu   "httpd-foreground"   30 minutes ago   Up 30 minutes  0.0.0.0:8080->80/tcp, :::8080->80/tcp  quirky_tesla
