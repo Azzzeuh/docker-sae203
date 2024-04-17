@@ -7,7 +7,7 @@ Vérifiez si docker est installé :\
 Cloner le référentiel : \
 ```git clone git@github.com:Azzzeuh/docker-sae203.git``` \
 Aller au référentiel : \
-```cd exempleDockerfile```\
+```cd docker-sae203```\
 Construisez l'image décrite dans dockerfile avec docker build :\
 ```docker build -t <choisir-un-nom-pour-l'image> .```\
 Lancer le serveur web :\
